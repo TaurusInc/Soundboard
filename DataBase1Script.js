@@ -4,7 +4,7 @@
 let user0 = 'Taurus';
 let user1 = 'Seppl';
 let user2 = "Toth";
-let user3 = "/";
+let user3 = "Süd";
 let user4 = "/";
 let user5 = "/";
 let user6 = "/";
@@ -17,7 +17,7 @@ let user10 = "/";
 let password0 = "TaurusInc05052005";
 let password1 = "2806";
 let password2 = "2005";
-let password3 = "/";
+let password3 = "Länder";
 let password4 = "/";
 let password5 = "/";
 let password6 = "/";
