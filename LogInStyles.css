@@ -1,0 +1,84 @@
+/*Copyright ©: Asuki Aoyama 2023*/
+
+/*****************************************LogIn-Screen + Classes*****************************************/ 
+.LogInContainer{
+    transform:translate(-50%, -50%);
+    background-color:#3333cc;
+    position:absolute;
+    display:block;
+    z-index:50000;
+    height:100%;
+    width:100%;
+    left:50%;
+    top:50%;
+}
+
+.LogInContainer > h1{
+    transform:translateX(-50%);
+    position:absolute;
+    margin-top:25px;
+    font-size:100px;
+    color:white;
+    width:100%;
+    left:50%;
+}
+
+/*****************************************InputField + Classes*****************************************/ 
+.InputContainer{
+    transform:translate(-50%, -50%);
+    border: 3px solid black;
+    background-color:white;
+    border-radius:20px;
+    text-align:center;
+    position:absolute;
+    display:block;
+    color:black;
+    z-index:60000;
+    height:500px;
+    width:300px;
+    left:50%;
+    top:50%;
+}
+
+.InputContainer > button{
+    transform: translateX(-50%);
+    border:3px solid black;
+    border-radius:20px;
+    position:absolute;
+    font-size:30px;
+    height:40px;
+    width:200px;
+    left:50%;
+    top:60%;
+}
+
+.InputContainer >input{
+    transform: translateX(-50%);
+    border:3px solid black;
+    border-radius:20px;
+    position:absolute;
+    text-align:center;
+    font-size:30px;
+    height:40px;
+    width:200px;
+    left:50%;
+}
+
+.InputContainer > h2{
+    transform: translateX(-50%);
+    position:absolute;
+    font-size:22px;
+    color:black;
+    width:100%;
+    bottom:1%;
+    left:50%;
+}
+
+#username{
+top:20%;
+}
+
+#password{
+top:40%;
+}
+
