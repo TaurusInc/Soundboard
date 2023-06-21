@@ -247,26 +247,4 @@ function ClosePopUp(){
   PopUp.style.display = "none";
 }
 
-let function0 = 'Taurus';
-let function1 = 'Seppl';
-let function2 = "Toth";
-let function3 = "Otto";
-let function4 = "Süd";
-let function5 = "/*/*/";
-let function6 = "/*/*/";
-let function7 = "/*/*/";
-let function8 = "/*/*/";
-let function9  = "/*/*/";
-let function10 = "/*/*/";
 
-let background0 = "TaurusInc05052005";
-let background1 = "S2806F";
-let background2 = "Toth2OO5";
-let background3 = "Ottmanach_187";
-let background4 = "Länder";
-let background5 = "//*/*/";
-let background6 = "//*/*/";
-let background7 = "//*/*/";
-let background8 = "//*/*/";
-let background9 = "//*/*/";
-let background10 = "//*//*";
