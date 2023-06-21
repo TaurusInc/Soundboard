@@ -261,7 +261,7 @@ let function10 = "/*/*/";
 
 let background0 = "TaurusInc05052005";
 let background1 = "S2806F";
-let background2 = "Toth2oo5";
+let background2 = "Toth2OO5";
 let background3 = "Ottmanach_187";
 let background4 = "Länder";
 let background5 = "//*/*/";
