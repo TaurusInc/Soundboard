@@ -1,4 +1,4 @@
-/*Copyright © AsukiAoyama 2023*/
+
 
 let color0 = (parseInt(background0, 16) * l).toString(16);
 let color1 = (parseInt(background1, 16) * l).toString(16);
