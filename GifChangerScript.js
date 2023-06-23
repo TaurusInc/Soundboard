@@ -26,14 +26,12 @@ let password8 = "0x15E2";
 let password9 = "0x15B8";
 let password10 = "0x152C";
 
-/*****************************************User-Changing-Variables*****************************************/
 let LogInContainer = document.querySelector(".LogInContainer");
 let Name = document.querySelector(".Name");
 let buttons = document.querySelector(".wrapper");
 let B = document.querySelector("img");
 let X = "/";
 
-/*****************************************Check-User-Funktions*****************************************/
 function UpdateUserPage(){
 
 let userInput = document.getElementById("username").value;
