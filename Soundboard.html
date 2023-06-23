@@ -1,0 +1,101 @@
+﻿<!DOCTYPE html>
+<html lang="de">
+<head>
+     <!--Copyright ©:TaurusInc. 2023-->
+     <!--Code-Helper: Asuki Aoyama-->
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta name=apple-mobile-web-app-status-bar-style content=black>
+     <meta name = "viewport" content = "user-scalable=no">
+     <meta name=apple-mobile-web-app-capable content=yes>
+     <meta name="mobile-web-app-capable" content="yes">
+    <title>Soundboard</title>
+
+    <link rel="stylesheet" type="text/css" href="SoundboardStyle.css">
+    <link rel="stylesheet" type="text/css" href="LogInStyles.css">
+
+</head>
+<body>
+
+    <div class="container">
+        <img src="Gifs/Peter.gif" alt="Gif" onclick="stopAllSounds()">
+    </div>
+    
+    <div class="wrapper">
+    <div class="button-container">
+        <button id="StopButton" onclick="stopAllSounds()">Stop</button>
+        <button  onclick="playSound('Sounds/TopG.mp3')">Top-G</button>
+        <button onclick="playSound('Sounds/Boom.mp3')">Boom</button>
+        <button onclick="playSound('Sounds/Sus.mp3')">Sus</button>
+        <button onclick="playSound('Sounds/WhatsUpGuys.mp3')">Fairy</button>
+        <button onclick="playSound('Sounds/Dinos.mp3')">Dinos</button>
+        <button onclick="playSound('Sounds/Willy.mp3')">Willy</button>
+        <button onclick="playSound('Sounds/Vine.mp3')">Vine</button>
+        <button onclick="playSound('Sounds/Chad.mp3')">Chad</button>
+        <button onclick="playSound('Sounds/BingChilling.mp3')">IceCream</button>
+        <button onclick="playSound('Sounds/Beatbox.mp3')">Beatboxing</button>
+        <button onclick="playSound('Sounds/JohnCena.mp3')">John Cena</button>
+        <button onclick="playSound('Sounds/Luxury.mp3')">Chess</button>
+        <button onclick="playSound('Sounds/CallMe.mp3')">Sigma</button>
+        <button onclick="playSound('Sounds/MoshiMoshi.mp3')">Shinobu</button>
+        <button onclick="playSound('Sounds/ThePerfectGirl.mp3')">Asuki</button>
+        <button onclick="playSound('Sounds/Lamar-N.mp3')">Lamar</button>
+        <button onclick="playSound('Sounds/Yeet.mp3')">Yeet</button>
+        <button onclick="playSound('Sounds/Em-God.mp3')">God</button>
+        <button onclick="playSound('Sounds/Barbie.mp3')">Barbie</button>
+        <button onclick="playSound('Sounds/Willi.mp3')">Willi</button>
+        <button onclick="playSound('Sounds/Homeless.mp3')">Homeless</button>
+        <button onclick="playSound('Sounds/Bird.mp3')">Bird</button>
+        <button onclick="playSound('Sounds/TateVape.mp3')">Air</button>
+        <button onclick="playSound('Sounds/BlueScream.mp3')">Blue</button>
+        <button onclick="playSound('Sounds/Britney.mp3')">Brit</button>
+        <button onclick="playSound('Sounds/Eiffel65.mp3')">65</button>
+        <button onclick="playSound('Sounds/Fire.mp3')">Fire</button>
+        <button onclick="playSound('Sounds/Hog.mp3')">Rider</button>
+        <button onclick="playSound('Sounds/ISDN.mp3')">Router</button>
+        <button onclick="playSound('Sounds/KrabsWalking.mp3')">Krabs</button>
+        <button onclick="playSound('Sounds/PBBas.mp3')">Bastard</button>
+        <button onclick="playSound('Sounds/Pipe.mp3')">Pipe</button>
+        <button onclick="playSound('Sounds/Scream.mp3')">Scream</button>
+        <button onclick="playSound('Sounds/Ship.mp3')">Horn</button>
+        <button onclick="playSound('Sounds/PBBitch.mp3')">Bitch</button>
+        <button onclick="playSound('Sounds/Thaddl.mp3')">Thaddl</button>
+        <button onclick="playSound('Sounds/Zirpen.mp3')">Grillen</button>
+        <button onclick="playSound('Sounds/Black.mp3')">Black</button>
+        <button onclick="playSound('Sounds/Mind.mp3')">Mind</button>
+        <button onclick="playSound('Sounds/Tutel.mp3')">Tutel</button>
+    </div>
+    </div>
+
+    <div class="PopUpContainer">
+      <img id="PopUpImg" src="Gifs/PopUpTerence.jpg" alt="img">
+      <h1 id="PopUpHeading">Terence is coming!</h1>
+      <x onclick="ClosePopUp()">ⓧ</x>
+      <p id="PopUpParagraph">10km away from you.</p>
+    </div>
+
+    <div class="LogInContainer">
+      <h1>Welcome to Soundboard</h1>
+      <div class="InputContainer">
+          <h1>Log in</h1>
+          <input id="username" type="text" placeholder="Name">
+          <input id="password" type="password" placeholder="Password">
+          <button onclick="UpdateUserPage() ">Submit</button>
+          <h2>Secured by Asuki</h2>
+      </div>
+    <h3 class="NameAsuki">©Asuki</h3>
+    <h3>©TaurusInc</h3>
+  </div>
+
+    <h3 class="NameAsuki">©Asuki</h3>
+    <h3 class="Name"></h3>
+    <h3>©TaurusInc</h3>
+
+  <script src="StarryBackgroundScript.js"></script>
+  <script src="SoundboardScript.js"></script>
+  <script src="GifChangerScript.js"></script>
+  <script src="HeadingScript.js"></script>
+
+</body>
+</html>
