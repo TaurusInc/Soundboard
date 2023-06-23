@@ -35,7 +35,7 @@ function playSound(soundFile) {
     stopAllSounds();
     PlayPopUpSound();
     setTimeout(OpenPopUp, 1000);
-    PopUpImg.src ="Gifs/Hacker.webp";
+    PopUpImg.src ="Gifs/Hacker.jpg";
     PopUpHeading.innerHTML = "Attention!";
     PopUpParagraph.innerHTML = "Ugly hackers in your area.";
   }
