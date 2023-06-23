@@ -1,6 +1,4 @@
 /*Copyright ©:TaurusInc. 2023*/
-/*Code-Helper: Asuki Aoyama*/
-
 
 /*****************************************Background-Color*****************************************/ 
  body{
@@ -42,18 +40,6 @@ h3{
       left:50%;
     }
 
-.NameAsuki{
-      transform: translateX(-50%);
-      position:absolute;
-      text-align:center;
-      font-weight: bold;
-      font-size:20px;
-      z-index: 5000;
-      opacity:0.5;
-      bottom:1px;
-      width:100%;
-      left:10%;
-    }
 /*****************************************Gif-Container-Classes*****************************************/
 .container{
     transform: translate(-50%, -50%);
