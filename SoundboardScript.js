@@ -1,5 +1,4 @@
 /*Copyright ©:TaurusInc. 2023*/
-/*Code-Helper: Asuki Aoyama*/
 let S = 0;
 var Clicks = 0;
 var currentAudio = [];
